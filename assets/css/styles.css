@@ -49,12 +49,11 @@ a img{
 }
 
 .contacts{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20%;
+    text-align: center;
     height: 100vh;
 }
-.home a, svg{
+.home a{
     font-size:larger;
     color: white;
     text-decoration: none;
