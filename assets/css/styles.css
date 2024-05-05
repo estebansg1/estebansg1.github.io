@@ -48,6 +48,24 @@ a img{
     }
 }
 
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.home a, svg{
+    font-size:larger;
+    color: white;
+    text-decoration: none;
+    cursor: url(../img/click.png),auto;
+}
+
+.linktree{
+    padding-left: 12px;
+    padding-right: 20vh;
+}
+
 #stars {
     width: 1px;
     height: 1px;
