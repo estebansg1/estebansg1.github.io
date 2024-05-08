@@ -91,8 +91,28 @@ a img{
     color: white;
     border-radius: 5px;
 }
+#copiedIcon {
+    display: none;
+}
 
-
+.email button{
+    border-radius: 6px 0;
+    background-color: #090a0f46;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+}
+.email button:hover{
+    border-radius: 6px 0;
+    background-color: #9297ac46;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    cursor: url(../img/click.png),auto;
+}
+.email i{
+    cursor: url(../img/click.png),auto;
+}
 #stars {
     width: 1px;
     height: 1px;
